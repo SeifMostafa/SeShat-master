@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_screen"
+    tools:context=".SplashActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center|bottom"
+    android:padding="40dp">
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/red_txt"
+        android:minWidth="146dp"
+        android:text="@string/start_lesson"
+        android:id="@+id/start_lesson_btn"
+        android:textSize="24sp"
+        android:layout_margin="24dp"
+        android:alpha="0"
+        android:background="@drawable/rounded_button_white"
+        />
+    <android.support.v7.widget.AppCompatButton
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+        android:text="الكتاب"
+        android:id="@+id/current_lesson_btn"
+        android:textColor="@color/colorWhity"
+        android:minWidth="146dp"
+        android:textSize="24sp"
+        android:layout_margin="24dp"
+        android:alpha="0"
+        android:background="@drawable/rounded_button_transparent"
+    />
+</LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

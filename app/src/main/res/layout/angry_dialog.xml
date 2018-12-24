@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/transparent"
+
+    >
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:src="@drawable/idea"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/image_idea"
+            android:elevation="11dp"/>
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_dialog_white"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="56dp"
+
+
+    >
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="تحب نفصل شوية ؟"
+
+    android:layout_gravity="center"
+    android:textSize="40sp"
+    android:layout_margin="56dp"
+    android:layout_marginBottom="16dp"
+    />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:gravity="center"
+
+        android:orientation="horizontal">
+       <FrameLayout
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:id="@+id/false_btn"
+           android:layout_weight="1"
+           android:background="@drawable/rounded_bottom_left_button">
+           <ImageView
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:background="@drawable/wrong"
+               android:layout_gravity="center"
+               />
+       </FrameLayout>
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/true_btn"
+            android:layout_weight="1"
+            android:background="@drawable/rounded_bottom_right_button">
+            <ImageView
+                android:layout_gravity="center"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:background="@drawable/check"/>
+        </FrameLayout>
+
+    </LinearLayout>
+</LinearLayout>
+</RelativeLayout>

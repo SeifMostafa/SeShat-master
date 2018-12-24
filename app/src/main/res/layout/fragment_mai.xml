@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:weightSum="3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <ImageView
+            android:id="@+id/wordImage"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:layout_weight="1"
+            android:background="@color/colorWhity"/>
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2">
+            <com.example.l.seshatmvp.WordView
+                android:id="@+id/textView_maintext"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorWhity"
+                android:text="@string/text"
+                android:textAlignment="center"
+                android:textSize="@dimen/activity_word_textsize"/>
+
+            <ImageView
+                android:id="@+id/nextWord"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="8dp"
+                android:src="@drawable/next"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"/>
+
+            <ImageView
+                android:id="@+id/prevWord"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginEnd="8dp"
+                android:src="@drawable/previous"
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"/>
+        </android.support.constraint.ConstraintLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:baselineAligned="false"
+        app:layout_constraintTop_toTopOf="parent">
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/item_margin"
+            android:layout_marginTop="@dimen/item_margin"
+            android:id="@+id/teacher_layout"
+            android:layout_weight="1"
+            >
+            <Button
+                android:id="@+id/teacher_btn_frame"
+                android:layout_width="@dimen/teacher_icon_width"
+                android:layout_height="@dimen/teacher_icon_height"
+                android:background="@color/transparent"
+                android:visibility="gone"
+                />
+            <ImageButton
+                android:id="@+id/teacher_btn"
+                android:layout_width="@dimen/teacher_icon_width"
+                android:layout_height="@dimen/teacher_icon_height"
+                android:background="@drawable/arabwoman"
+                tools:ignore="RtlHardcoded"/>
+        </FrameLayout>
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+            <ImageButton
+                android:id="@+id/mike_voice_btn"
+                android:layout_width="@dimen/mic_icon_width"
+                android:layout_height="@dimen/mic_icon_height"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/mike_voice"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingRight="5dp">
+            <LinearLayout
+                android:orientation="horizontal"
+                android:id="@+id/stars_layout"
+                android:layout_gravity="right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:orientation="horizontal"
+        android:padding="@dimen/item_padding"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
+
+        <FrameLayout
+            android:id="@+id/play_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp">
+
+            <Button
+                android:id="@+id/imagebutton_soundhelp_frame"
+                android:layout_width="@dimen/prev_lessons_icon_size"
+                android:layout_height="@dimen/prev_lessons_icon_size"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_soundhelp"
+                android:layout_width="@dimen/prev_lessons_icon_size"
+                android:layout_height="@dimen/prev_lessons_icon_size"
+                android:layout_gravity="center"
+                android:background="@drawable/play_btn" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:id="@+id/repeat_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/item_margin"
+            android:layout_marginRight="@dimen/item_margin">
+
+            <Button
+                android:id="@+id/imagebutton_repeat_frame"
+                android:layout_width="@dimen/prev_lessons_icon_size"
+                android:layout_height="@dimen/prev_lessons_icon_size"
+                android:layout_gravity="center"
+                android:background="@color/transparent"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/imagebutton_repeat"
+                android:layout_width="@dimen/prev_lessons_icon_size"
+                android:layout_height="@dimen/prev_lessons_icon_size"
+                android:layout_gravity="center"
+                android:background="@drawable/repeat" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/imagebutton_success"
+        android:layout_width="@dimen/prev_lessons_icon_size"
+        android:layout_height="@dimen/prev_lessons_icon_size"
+        android:translationZ="@dimen/btn_z"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/done"
+        android:layout_margin="8dp"
+        android:visibility="invisible"/>
+
+
+</android.support.constraint.ConstraintLayout>

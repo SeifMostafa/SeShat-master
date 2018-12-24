@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhity">#F0F0F0</color>
+    <color name="scrim">#2e000000</color>
+    <color name="red_txt">#a81c14</color>
+    <color name="primaryColor">#3397be</color>
+    <color name="grey">#eeeeee</color>
+    <color name="orange">#ff8e3b</color>
+    <color name="babyBlue">#3379be</color>
+    <color name="transparent">#00ffffff</color>
+    <color name="check_right_dialog">#00a651</color>
+    <color name="check_wrong_dialog">#dd0000</color>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_actionbar_margin">24dp</dimen>
+    <dimen name="activity_double_actionbar_margin">48dp</dimen>
+    <dimen name="activity_word_textsize">150sp</dimen>
+    <dimen name="activity_word_textsize_listitem">36sp</dimen>
+    <dimen name="btn_shadow">5dp</dimen>
+    <dimen name="btn_z">5dp</dimen>
+    <dimen name="activity_phrase_textsize">85sp</dimen>
+    <dimen name="large_item_padding">15dp</dimen>
+    <dimen name="item_padding">8dp</dimen>
+    <dimen name="item_margin">6dp</dimen>
+    <dimen name="activity_small_phrase_textsize">35sp</dimen>
+    <dimen name="prev_lessons_icon_size">60dp</dimen>
+    <dimen name="teacher_icon_width">75dp</dimen>
+    <dimen name="teacher_icon_height">85dp</dimen>
+    <dimen name="mic_icon_width">110dp</dimen>
+    <dimen name="mic_icon_height">40dp</dimen>
+    <dimen name="book_icon_width">155dp</dimen>
+    <dimen name="book_icon_height">45dp</dimen>
+    <dimen name="star_icon_size">25dp</dimen>
+    <dimen name="small_icon_size">40dp</dimen>
+    <dimen name="activity_xsmall_phrase_textsize">28dp</dimen>
+</resources>

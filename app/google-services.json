@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "501060277838",
+    "firebase_url": "https://seshat-9664e.firebaseio.com",
+    "project_id": "seshat-9664e",
+    "storage_bucket": "seshat-9664e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:501060277838:android:2c8ceb02d0d37b5f",
+        "android_client_info": {
+          "package_name": "com.example.l.seshatmvp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "501060277838-6dlu4cptpgdepr6afgf942ldfb65jfh3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.l.seshatmvp",
+            "certificate_hash": "02a087e35ee9c1f49d74e5c4390d52651684c480"
+          }
+        },
+        {
+          "client_id": "501060277838-qqfmn65gsuqh6bm5a2odjmkftt39v92f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCXhgTEe0zOixUOxSjJiroz7wt3LOztx4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "501060277838-qqfmn65gsuqh6bm5a2odjmkftt39v92f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

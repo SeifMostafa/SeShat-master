@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">SeShatPlayer</string>
+
+    <string name="base_url">https://vision.googleapis.com/</string>
+    <string name="text">ورد</string>
+    <string name="start_lesson">ابدأ الدرس</string>
+    <string name="phrase_text">ود الورد</string>
+    <string name="myname">myname</string>
+    <string name="backcurrentlesson">backcurrentlesson</string>
+    <string name="backprevlesson">backprevlesson</string>
+    <string name="helpfragmenthelpbtninstr">helpfragmenthelpbtninstr</string>
+    <string name="pickwordinstr">pickwordinstr</string>
+    <string name="speakinstruction">speakinstruction</string>
+    <string name="tryAgain">tryAgain</string>
+    <string name="congrats">congrats</string>
+    <string name="final_congrats">final_congrats</string>
+    <string name="happy">happy</string>
+    <string name="angry">angry pause</string>
+    <string name="teacher">teacher</string>
+    <string name="repeat_word">repeat word</string>
+    <string name="repeat_lesson">repeat lesson</string>
+    <string name="pause_1">pause_1</string>
+    <string name="pause_2">pause_2</string>
+
+
+    <string name="nice_this_is_it">nice this is it.wav</string>
+    <string name="now_choose_word_from_phrase">now choose word from phrase.wav</string>
+    <string name="said_what_you_learned">said what you learned.wav</string>
+
+    <string name="activity_display_return">Return</string>
+    <string name="no_faces_message">No Faces Detected</string>
+    <string name="no_emoji">No Emoji Expression Found</string>
+    <string name="urachievements">urachievements</string>
+
+    <string name="speech_prompt">Say something&#8230;</string>
+    <string name="speech_not_supported">Sorry! Your device doesn\'t support speech input</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="repeat_character">repeat character</string>
+    <string name="play_word">play word</string>
+    <string name="play_character">play character</string>
+
+</resources>
